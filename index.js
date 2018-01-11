@@ -14,9 +14,10 @@ var uppercase = "HELLO!"
 var lowercase = "hello!"
 var mixedCase = "Hi there!"
 function sayHiToGrandma(string) {
-  if string === uppercase
+  if (string === uppercase)
   return 'YES INDEED!'
-  else if string === lowercase
+  else if (string === lowercase)
   return 'I cant hear you'
-  else
+  else if (string === "I love you, Grandma!")
+  return 'I love you too!'
 }
